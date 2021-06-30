@@ -2,7 +2,13 @@
 name = "erosion"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Eric (Skepz) <skepz.dev@gmail.com>"]
+description = "A 2D game engine where all pixels are simulated"
 
 [dependencies]
+wgpu = "*"
+winit = "*"
+cgmath = "*"
+env_logger = "*"
+log = "*"
+futures = "*"
